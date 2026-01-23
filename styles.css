@@ -111,6 +111,14 @@ body {
     line-height: 1.5rem;
 }
 
+.error-message {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    line-height: 1.5rem;
+}
+
 
 footer {
     width: 100%;
