@@ -70,6 +70,10 @@ body {
     padding: 1rem;
 }
 
+.project {
+    margin-bottom: 1.5rem;
+}
+
 .project h3 {
     margin: 5px;
 }
@@ -77,12 +81,31 @@ body {
 .project ul {
     padding: 0.5rem 0.5rem 0.5rem 3rem;
     margin-top: 0;
+    margin-bottom: 0;
     background-color: var(--secondary-color);
     border-radius: 5px;
 }
 
 .project ul li {
     margin: 8px 0 8px 0;
+}
+
+.lang-groups {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background-color: var(--secondary-color);
+    padding: 1.5rem;
+    padding-left: 2rem;
+    border-radius: 5px;
+}
+
+.lang-group h4 {
+    margin: 0;
+}
+
+.lang-group ul {
+    padding-left: 1.5rem;
 }
 
 .personal-info {
